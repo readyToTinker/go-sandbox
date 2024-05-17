@@ -14,7 +14,7 @@ spec:
         app: go-webserver
     spec:
       containers:
-      - image: go-webserver:latest
+      - image: hoffmantamas/go-webserver:1.0
         name: go-webserver
         ports:
         - containerPort: 80
